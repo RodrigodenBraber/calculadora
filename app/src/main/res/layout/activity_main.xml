@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+    <!-- box solución -->
     <LinearLayout
         android:orientation="horizontal"
         android:layout_margin="20dp"
@@ -21,7 +21,7 @@
             android:layout_height="50dp"
             android:layout_width="match_parent"/>
     </LinearLayout>
-
+    <!-- primer contenedor números -->
     <LinearLayout
         android:orientation="horizontal"
         android:layout_margin="20dp"
@@ -37,31 +37,32 @@
             android:text="7"
             android:textSize="24sp"/>
         <Button
-            android:id="@+id/num_siete"
+            android:id="@+id/num_ocho"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
-            android:text="7"
+            android:text="8"
             android:textSize="24sp"/>
         <Button
-            android:id="@+id/num_siete"
+            android:id="@+id/num_nueve"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
-            android:text="7"
+            android:text="9"
             android:textSize="24sp"/>
         <Button
-            android:id="@+id/num_siete"
+            android:id="@+id/num_producto"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
-            android:text="X"
+            android:text="*"
             android:textSize="24sp"/>
 
     </LinearLayout>
+    <!-- segundo contenedor números -->
     <LinearLayout
         android:orientation="horizontal"
         android:layout_margin="20dp"
@@ -73,31 +74,31 @@
         android:layout_width="match_parent">
 
         <Button
-            android:id="@+id/num_siete"
+            android:id="@+id/num_cuatro"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
-            android:text="7"
+            android:text="4"
             android:textSize="24sp"/>
         <Button
-            android:id="@+id/num_siete"
+            android:id="@+id/num_cinco"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
-            android:text="7"
+            android:text="5"
             android:textSize="24sp"/>
         <Button
-            android:id="@+id/num_siete"
+            android:id="@+id/num_seis"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
-            android:text="7"
+            android:text="6"
             android:textSize="24sp"/>
         <Button
-            android:id="@+id/num_siete"
+            android:id="@+id/num_divisor"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -106,6 +107,7 @@
             android:textSize="24sp"/>
 
     </LinearLayout>
+    <!-- tercer contenedor números -->
     <LinearLayout
         android:orientation="horizontal"
         android:layout_margin="20dp"
@@ -117,31 +119,75 @@
         android:layout_width="match_parent">
 
         <Button
-            android:id="@+id/num_siete"
+            android:id="@+id/num_uno"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
-            android:text="7"
+            android:text="1"
             android:textSize="24sp"/>
         <Button
-            android:id="@+id/num_siete"
+            android:id="@+id/num_dos"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
-            android:text="7"
+            android:text="2"
             android:textSize="24sp"/>
         <Button
-            android:id="@+id/num_siete"
+            android:id="@+id/num_tres"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
-            android:text="7"
+            android:text="3"
             android:textSize="24sp"/>
         <Button
-            android:id="@+id/num_siete"
+            android:id="@+id/num_resta"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="-"
+            android:textSize="24sp"/>
+    </LinearLayout>
+    <!-- cuarto contenedor números -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <Button
+            android:id="@+id/num_borrar"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="CE"
+            android:textSize="24sp"/>
+        <Button
+            android:id="@+id/num_cero"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="0"
+            android:textSize="24sp"/>
+        <Button
+            android:id="@+id/num_igual"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="="
+            android:textSize="24sp"/>
+        <Button
+            android:id="@+id/num_suma"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -149,36 +195,4 @@
             android:text="+"
             android:textSize="24sp"/>
     </LinearLayout>
-    <Button
-        android:id="@+id/num_siete"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="20dp"
-        android:text="7"
-        android:textSize="24sp"/>
-    <Button
-        android:id="@+id/num_siete"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="20dp"
-        android:text="7"
-        android:textSize="24sp"/>
-    <Button
-        android:id="@+id/num_siete"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="20dp"
-        android:text="7"
-        android:textSize="24sp"/>
-    <Button
-        android:id="@+id/num_siete"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="+"
-        android:textSize="24sp"/>
-
 </LinearLayout>
