@@ -138,16 +138,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 switch(symbol){
                     case "-":
-                        resultado.setText("resultado" + (num1 - num2));
+                        resultado.setText("" + (num1 - num2));
                         break;
                     case "+":
-                        resultado.setText("resultado" + (num1 + num2));
+                        resultado.setText("" + (num1 + num2));
                         break;
                     case "/":
-                        resultado.setText("resultado" + (num1 / num2));
+                        if (num2!=0)
+                        resultado.setText("" + (num1 / num2));
+                        else
+                            resultado.setText("ERROR");
                         break;
                     case "*":
-                        resultado.setText("resultado" + (num1 * num2));
+                        resultado.setText("" + (num1 * num2));
                         break;
                 }
                 numero = "";
